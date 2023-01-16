@@ -279,3 +279,84 @@ a {
 	
 }
 
+.fifth-page{
+	margin-top:20vw;
+	/*height: 10vh;*/
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	gap:10vh;
+}
+
+
+.sponsors-container{
+	/*background:blue;*/
+	width: 76%;
+	display: flex;
+	justify-content: space-between;
+	gap:1vw;
+}
+
+
+.email > img {
+	height: 8vh;
+}
+
+.email{
+	background: linear-gradient(to right, #004586,#553186, #CE1487);
+	color:white;
+	width: 76%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.newsletter,.email-section{
+	
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.newsletter{
+	width: 30%;
+	padding:20px 40px;
+}
+
+
+.email-section{
+	justify-content: center;
+	height:14vh;
+	width:50%;
+	display: flex;
+	justify-content: center;
+}
+
+.email-section > input {
+	height: 70%;
+	width: 70%;
+	border:none;
+	border-radius: 8px 0px 0px 8px ;
+	background: white;
+}
+
+input[type="text"] {
+	padding:20px;
+	font-size: 20px;
+	color:grey;
+}
+
+.email-section > button {
+	color:white;
+	font-size: 20px;
+	height: 70%;
+	border:1px solid white;
+	border-radius: 0px 8px 8px 0px ;
+	background:rgb(35, 164, 237);
+	padding:10px;
+} 
+
+
