@@ -186,8 +186,6 @@ a {
 	justify-content: space-between;
 }
 
-
-/*The boxes that contain peace of mind,set for life ...*/
 .third-page-content{
 	padding:2vw;
 	width:30%;
@@ -207,5 +205,77 @@ a {
 
 .third-page-icon {
 	max-height: 100px;
-	/*margin: 20px; */
+	
 }
+
+.fourth-page{
+	min-height: 30vw;
+	background:rgb(247, 247, 247);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+.fourth-header{
+	margin:6vh;
+	width: 60vw;
+	padding:20px;
+	text-align: center;
+}
+
+.fourth-header > h1 {
+	padding: 20px;
+	font-size:58px;
+} 
+.fourth-header > p {
+	color: grey;
+	font-size: 20px;
+	padding:0px 80px 0px 100px;
+
+}
+
+
+.ratings{
+	display: flex;
+	justify-content: center; 
+}
+.fourth-ratings {
+	width: 75%;
+	display: flex;
+	justify-content: center;
+	gap:3vw;
+	
+}
+
+
+
+.user-ratings{ 
+	height: 31vw;
+	background:white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border:2px solid rgb(39,39,39,0.2);
+	border-radius: 14px;
+	
+}
+
+.user-ratings> img {
+	height: 12vw;
+	width: 12vw;
+}
+
+.user-ratings> p {
+	color: rgb(39,39,39,0.7);
+	text-align: center;
+	font-size: 23px;
+	margin: 40px 62px;
+}
+
+.star-ratings > img {
+	height:3vh;
+	
+}
+
