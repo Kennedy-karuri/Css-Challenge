@@ -130,3 +130,82 @@ a {
 	border: 2px solid white;
 	background:transparent;
 }
+
+
+.second-page{
+	background:rgb(247, 247, 247);
+	min-height:15vw;
+}
+
+
+.second-page-container{
+	margin:0px auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.second-content{
+	margin-top: -5vw;
+	padding:2vw;
+	color:back;
+	padding-left:3vw;
+	background:white;
+	width:30%;
+	flex-wrap: wrap;
+	height:14vw;
+	box-shadow: 1px 1px 50px rgb(39,39,39,0.3);
+}
+
+.second-content> p {
+	color:grey;
+	font-size: 1vw;
+	padding:20px 80px 0px 0px;
+}
+
+
+.second-content-icon{
+	height: 80px;
+}
+
+
+.third-page{
+	background:white;
+	min-height:20vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.third-container{
+	margin:0px auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/*The boxes that contain peace of mind,set for life ...*/
+.third-page-content{
+	padding:2vw;
+	width:30%;
+	flex-wrap: wrap;
+	height:14vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.third-page-content > p { 
+	color:grey;
+	font-size: 1vw;
+}
+
+
+.third-page-icon {
+	max-height: 100px;
+	/*margin: 20px; */
+}
